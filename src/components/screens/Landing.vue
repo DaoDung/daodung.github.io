@@ -1,7 +1,7 @@
 <template>
   <div class="form-chitiet">
     <div class="run-down mt-3" v-if="String(index) === '0'">
-      <div class="box-title">Tình hình xử lý các năm</div>
+      <div class="box-title">Tình hình xử lý </div>
       <div class="in-time">
         <span>{{itemTotalAllYear['ontimePercentage'] ? Math.round(itemTotalAllYear['ontimePercentage']) : 0}} %</span>
         Sớm và đúng hạn
