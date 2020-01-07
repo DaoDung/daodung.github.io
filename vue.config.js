@@ -19,8 +19,8 @@ module.exports = {
   },
   configureWebpack: {
     output: {
-      filename: '../../docs/o/opencps-frontend-cli/report_charts/app/js/[name].js',
-      chunkFilename: '../../docs/o/opencps-frontend-cli/report_charts/app/js/[name].js'
+      filename: './[name].js',
+      chunkFilename: './[name].js'
     }
   }
 }
